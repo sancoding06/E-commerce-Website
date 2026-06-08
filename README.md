@@ -1,16 +1,58 @@
-# React + Vite
+##E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive E-Commerce Website built using React. The application provides an intuitive shopping experience with category-based browsing, wishlist management, shopping cart functionality, and order tracking.
 
-Currently, two official plugins are available:
+##Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Home Page
+- Tops Collection
+- Bottoms Collection
+- Dresses Collection
+- Footwear Collection
+- Sale Section
+- Wishlist Management
+- Shopping Cart
+- Orders Management
+- Responsive Design
 
-## React Compiler
+##Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML
+- CSS
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Home Page
+![Home Page](src/screenshots/home.png)
+
+### Tops Collection
+![Tops Collection](src/screenshots/tops.png)
+
+### Bottoms Collection
+![Bottoms Collection](src/screenshots/bottoms.png)
+
+### Dresses Collection
+![Dresses Collection](src/screenshots/dresses.png)
+
+### Footwear Collection
+![Footwear Collection](src/screenshots/footwear.png)
+
+### Sale Section
+![Sale Section](src/screenshots/sale.png)
+
+### Wishlist
+![Wishlist](src/screenshots/wishlist.png)
+
+### Shopping Cart
+![Shopping Cart](src/screenshots/cart.png)
+
+### Orders Page
+![Orders Page](src/screenshots/orders.png)
+
+### Account Page
+![Account Page](src/screenshots/account.png)
+
+### Bags Collection
+![Bags Collection](src/screenshots/bags.png)
