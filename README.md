@@ -39,8 +39,8 @@ A modern and responsive E-Commerce Website built using React. The application pr
 ### Footwear Collection
 ![Footwear Collection](src/screenshots/footwear.png)
 
-### Product Section
-![Product Section](src/screenshots/product.png)
+### Bags Collection
+![Bags Collection](src/screenshots/bags.png)
 
 ### Wishlist
 ![Wishlist](src/screenshots/wishlist.png)
@@ -48,11 +48,11 @@ A modern and responsive E-Commerce Website built using React. The application pr
 ### Shopping Cart
 ![Shopping Cart](src/screenshots/cart.png)
 
-### Add Products
-![Add Products](src/screenshots/add.png)
-
 ### Account Page
 ![Account Page](src/screenshots/account.png)
 
-### Bags Collection
-![Bags Collection](src/screenshots/bags.png)
+### Add Products
+![Add Products](src/screenshots/add.png)
+
+### Product Section
+![Product Section](src/screenshots/product.png)
