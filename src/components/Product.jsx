@@ -54,7 +54,7 @@ export function Product() {
             }}
           >
             <img
-              src={p.imgurl}
+              src={p.imageurl}
               alt={p.name}
               style={{
                 width: "100%",

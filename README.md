@@ -9,10 +9,10 @@ A modern and responsive E-Commerce Website built using React. The application pr
 - Bottoms Collection
 - Dresses Collection
 - Footwear Collection
-- Sale Section
+- Product Section
 - Wishlist Management
 - Shopping Cart
-- Orders Management
+- Add Products
 - Responsive Design
 
 ##Tech Stack
@@ -39,8 +39,8 @@ A modern and responsive E-Commerce Website built using React. The application pr
 ### Footwear Collection
 ![Footwear Collection](src/screenshots/footwear.png)
 
-### Sale Section
-![Sale Section](src/screenshots/sale.png)
+### Product Section
+![Product Section](src/screenshots/product.png)
 
 ### Wishlist
 ![Wishlist](src/screenshots/wishlist.png)
@@ -48,8 +48,8 @@ A modern and responsive E-Commerce Website built using React. The application pr
 ### Shopping Cart
 ![Shopping Cart](src/screenshots/cart.png)
 
-### Orders Page
-![Orders Page](src/screenshots/orders.png)
+### Add Products
+![Add Products](src/screenshots/add.png)
 
 ### Account Page
 ![Account Page](src/screenshots/account.png)
