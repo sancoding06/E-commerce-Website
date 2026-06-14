@@ -99,16 +99,16 @@ export function Navbar() {
           Account
         </a>
 
-        {/* Orders */}
+        {/* Add */}
         <a
-          href="/orders"
+          href="/add"
           style={{
             textDecoration: "none",
             color: "#52525b",
             fontWeight: 600,
           }}
         >
-          Orders
+          Add
         </a>
 
         {/* Wishlist */}
@@ -209,14 +209,14 @@ export function Navbar() {
         </a>
 
         <a
-          href="/sale"
+          href="/product"
           style={{
             textDecoration: "none",
             color: "#ec4899",
             fontWeight: 700,
           }}
         >
-          Sale
+          Product
         </a>
       </div>
     </nav>

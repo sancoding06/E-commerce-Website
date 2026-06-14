@@ -7,8 +7,8 @@ import { Tops } from './components/Tops'
 import { Bottoms } from './components/Bottoms'
 import { Bags } from './components/Bags'
 import { Footwear } from './components/Footwear'
-import {Orders } from './components/Orders'
-import { Sale } from './components/Sale'
+import { Add } from './components/Add'
+import { Product } from './components/Product'
 import { Wishlist } from './components/Wishlist'
 import { Cart } from './components/Cart'
 function App() {
@@ -23,8 +23,8 @@ function App() {
         <Route path="/bottoms" element={<Bottoms/>}/>
         <Route path="/bags" element={<Bags/>}/>
         <Route path="/footwear" element={<Footwear/>}/>
-        <Route path="/orders" element={<Orders/>}/>
-        <Route path="/sale" element={<Sale/>}/>
+        <Route path="/add" element={<Add/>}/>
+        <Route path="/product" element={<Product/>}/>
         <Route path="/wishlist" element={<Wishlist/>}/>
         <Route path="/cart" element={<Cart/>}/>
       </Routes>
