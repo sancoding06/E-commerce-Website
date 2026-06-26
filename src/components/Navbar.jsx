@@ -148,7 +148,7 @@ export function Navbar() {
         }}
       >
         <a
-          href="/"
+          href="/home"
           style={{
             textDecoration: "none",
             color: "#db2777",

@@ -1,4 +1,14 @@
+import { useNavigate } from "react-router-dom";
+import { supabase } from "../supabase";
+
 export function Account() {
+  const navigate = useNavigate();
+
+  async function signOut() {
+    await supabase.auth.signOut();
+    navigate("/login");
+  }
+
   return (
     <main
       style={{
@@ -31,9 +41,6 @@ export function Account() {
             My Profile
           </h1>
 
-        
-
-          {/* Avatar */}
           <div
             style={{
               display: "flex",
@@ -66,7 +73,6 @@ export function Account() {
             </button>
           </div>
 
-          {/* Form */}
           <div
             style={{
               display: "grid",
@@ -93,7 +99,6 @@ export function Account() {
                   padding: "14px",
                   borderRadius: "12px",
                   border: "1px solid #f5dce7",
-                  outline: "none",
                 }}
               />
             </div>
@@ -117,7 +122,6 @@ export function Account() {
                   padding: "14px",
                   borderRadius: "12px",
                   border: "1px solid #f5dce7",
-                  outline: "none",
                 }}
               />
             </div>
@@ -194,9 +198,7 @@ export function Account() {
               />
             </div>
           </div>
-
-          {/* Actions */}
-          <div
+                    <div
             style={{
               display: "flex",
               gap: "16px",
@@ -229,6 +231,54 @@ export function Account() {
               }}
             >
               Cancel
+            </button>
+          </div>
+
+          <div
+            style={{
+              marginTop: "50px",
+              paddingTop: "30px",
+              borderTop: "1px solid #f5dce7",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              flexWrap: "wrap",
+              gap: "20px",
+            }}
+          >
+            <div>
+              <h3
+                style={{
+                  margin: 0,
+                  color: "#3f3f46",
+                }}
+              >
+                Sign Out
+              </h3>
+
+              <p
+                style={{
+                  marginTop: "8px",
+                  color: "#71717a",
+                }}
+              >
+                Securely sign out of your account on this device.
+              </p>
+            </div>
+
+            <button
+              onClick={signOut}
+              style={{
+                background: "#dc2626",
+                color: "white",
+                border: "none",
+                padding: "14px 28px",
+                borderRadius: "999px",
+                fontWeight: 600,
+                cursor: "pointer",
+              }}
+            >
+              Sign Out
             </button>
           </div>
         </div>

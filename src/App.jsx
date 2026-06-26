@@ -11,12 +11,18 @@ import { Add } from './components/Add'
 import { Product } from './components/Product'
 import { Wishlist } from './components/Wishlist'
 import { Cart } from './components/Cart'
+import { Defaultpg } from './components/Defaultpg'
+import { Signup } from './components/Signup'
+import { Login } from './components/Login'
 function App() {
   return (
     <>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<Defaultpg/>}/>
+        <Route path="/signup" element={<Signup/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/home" element={<Home/>}/>
         <Route path="/account" element={<Account/>}/>
         <Route path="/dresses" element={<Dresses/>}/>
         <Route path="/tops" element={<Tops/>}/>
